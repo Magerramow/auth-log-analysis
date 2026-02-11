@@ -17,6 +17,7 @@ sudo service ssh start
 sudo journalctl -b | grep "Failed password"
 sudo journalctl -b | grep "Failed password" | wc -l
 
+
 ## Findings
 - Identified multiple failed SSH authentication attempts.
 - Observed repeated "Failed password for invalid user" events.
