@@ -16,7 +16,7 @@ This project demonstrates basic SSH authentication log analysis using a Kali Lin
 sudo service ssh start
 sudo journalctl -b | grep "Failed password"
 sudo journalctl -b | grep "Failed password" | wc -l
-
+```
 
 ## Findings
 - Identified multiple failed SSH authentication attempts.
